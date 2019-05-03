@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   mariadb:
   - apiVersion: v1
-    created: 2019-05-03T11:33:19.417353445+02:00
+    created: 2019-05-03T11:47:06.036785275+02:00
     description: OpenStack-Helm MariaDB
     digest: e8c06eda69aa72ffacf936b3601f771e6e1b1c129a4c7517b809bbe625759bc5
     home: https://mariadb.com/kb/en/
@@ -18,20 +18,36 @@ entries:
     version: 0.1.0
   memcached:
   - apiVersion: v1
-    created: 2019-05-03T11:33:19.419258259+02:00
+    created: 2019-05-03T11:47:06.038770857+02:00
     description: OpenStack-Helm Memcached
     digest: 4fef1b5d618d21c1a4197dcbbbbece5ece3f329fb4fb6e4b73febd8cb6474ce4
     name: memcached
     urls:
     - memcached-0.1.0.tgz
     version: 0.1.0
+  openvswitch:
+  - apiVersion: v1
+    created: 2019-05-03T11:47:06.040917334+02:00
+    description: OpenStack-Helm OpenVSwitch
+    digest: 3990b867ef81cbea795d3ff070d98092ffe3323283b8c2c5431f5ecf05c2b483
+    home: http://openvswitch.org
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Neutron/OpenStack_Project_Neutron_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: openvswitch
+    sources:
+    - https://github.com/openvswitch/ovs
+    - https://git.openstack.org/cgit/openstack/openstack-helm
+    urls:
+    - openvswitch-0.1.0.tgz
+    version: 0.1.0
   rabbitmq:
   - apiVersion: v1
-    created: 2019-05-03T11:33:19.42154336+02:00
+    created: 2019-05-03T11:47:06.043375714+02:00
     description: OpenStack-Helm RabbitMQ
     digest: 551bae899c0691be3a863ddd78f6837925a076440763746c91f7c40b8e91bdf0
     name: rabbitmq
     urls:
     - rabbitmq-0.1.0.tgz
     version: 0.1.0
-generated: 2019-05-03T11:33:19.413200479+02:00
+generated: 2019-05-03T11:47:06.032654255+02:00
