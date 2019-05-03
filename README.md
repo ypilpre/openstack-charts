@@ -1,1 +1,1 @@
-# openstack-charts
+charts
