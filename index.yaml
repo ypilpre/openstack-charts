@@ -1,0 +1,37 @@
+apiVersion: v1
+entries:
+  mariadb:
+  - apiVersion: v1
+    created: 2019-05-03T11:33:19.417353445+02:00
+    description: OpenStack-Helm MariaDB
+    digest: e8c06eda69aa72ffacf936b3601f771e6e1b1c129a4c7517b809bbe625759bc5
+    home: https://mariadb.com/kb/en/
+    icon: http://badges.mariadb.org/mariadb-badge-180x60.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: mariadb
+    sources:
+    - https://github.com/MariaDB/server
+    - https://git.openstack.org/cgit/openstack/openstack-helm
+    urls:
+    - mariadb-0.1.0.tgz
+    version: 0.1.0
+  memcached:
+  - apiVersion: v1
+    created: 2019-05-03T11:33:19.419258259+02:00
+    description: OpenStack-Helm Memcached
+    digest: 4fef1b5d618d21c1a4197dcbbbbece5ece3f329fb4fb6e4b73febd8cb6474ce4
+    name: memcached
+    urls:
+    - memcached-0.1.0.tgz
+    version: 0.1.0
+  rabbitmq:
+  - apiVersion: v1
+    created: 2019-05-03T11:33:19.42154336+02:00
+    description: OpenStack-Helm RabbitMQ
+    digest: 551bae899c0691be3a863ddd78f6837925a076440763746c91f7c40b8e91bdf0
+    name: rabbitmq
+    urls:
+    - rabbitmq-0.1.0.tgz
+    version: 0.1.0
+generated: 2019-05-03T11:33:19.413200479+02:00
